@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
+"""function that takes two data type of argument annotated as float."""
 from typing import Union, Tuple
-"""a function that takes two data type of argument annotated as float"""
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
