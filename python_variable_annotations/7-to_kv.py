@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
+from typing import Union, Tuple
 """a function that takes two data type of argument annotated as float"""
 
 
-def to_kv(k: str, v: float) -> float:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """return a tuple"""
-    result_k = k
-    result_square = v ** 2
+    result_k: int = k
+    result_square: float = v ** 2
     return result_k, result_square
