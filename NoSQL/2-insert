@@ -1,0 +1,4 @@
+// to insert the new  database
+db.my_db.insertOne({
+    name: "Holberton school"
+})
