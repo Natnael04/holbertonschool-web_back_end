@@ -1,4 +1,4 @@
 // to insert the new  database
-db.my_db.insertOne({
+db.school.insertOne({
     name: "Holberton school"
 })
